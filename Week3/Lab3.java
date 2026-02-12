@@ -61,21 +61,9 @@ public class Lab3{
         //System.out.print("World\n");
         //System.out.print("Another Line");
 
-        // Scanner class
-
-        // 1. Create a Scanner Object
-        Scanner input = new Scanner(System.in);
-
-        // 2. Create a prompt for the user
-        // $10.50
-        System.out.print("What is your subtotal: ");
-
-        // 3. Take in the data from the user
-        // .nextDouble() , .nextInt() , .nextLine()
-        double subtotal = input.nextDouble();
-
-        // Calculation
         
+        // Calculation
+
 
 
 
