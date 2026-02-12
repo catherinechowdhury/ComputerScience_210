@@ -1,10 +1,12 @@
 package Week3;
-
+import java.util.Scanner;
 public class Modulus {
 
     public static void main(String[] args){
-        // 1. Hold our number 932
-			int number = 1932;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = input.nextInt(); // 932
+
 			
 		// 2. Hold the sum of the digits
             int sum = 0;
@@ -39,14 +41,12 @@ public class Modulus {
         // D. ?
 		
 		// Print Sum
-        System.out.println("Sum of 932:" + sum);
+        System.out.println("Sum of the digits: " + sum);
 
-        // 100 seconds > 1 min 40 sec
+        // 100 seconds = 1 min 40 sec
         // 100 % 60 = 1 R 40 = 40 sec
         // 100 / 60 = 1 R 40 = 1 min
 
-        // Math.sqrt(a) >Math.sqrt(9) > 3
-        // Math.pow(a,b) > Math.pow(2,2) > 4
 	
 			
     }
