@@ -41,7 +41,7 @@ public class Increment {
 
         int count = 15;
         int newCount = ++count;
-        System.out.println(count); // This will print 26 because count has been incremented
-        System.out.println(newCount); // This will print 25 because newCount is assigned the
+        System.out.println(count); // This will print 16 because count has been incremented
+        System.out.println(newCount); // This will print 16 because newCount is assigned the incremented value
     }
 }
