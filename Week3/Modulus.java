@@ -48,7 +48,7 @@ public class Modulus {
         // 100 / 60 = 1 R 40 = 1 min
 
 	
-			
+		input.close(); 
     }
     
 }

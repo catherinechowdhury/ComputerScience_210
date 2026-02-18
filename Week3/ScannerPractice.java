@@ -21,7 +21,14 @@ public class ScannerPractice {
 
         // Do Some calculation with the subtotal or print
 
+        // For example, we can calculate the total with tax
+        double taxRate = 0.07; // 7% tax
+        double total = subtotal + (subtotal * taxRate);
+        System.out.println("Total with tax: " + total);
+
         System.out.println("Print Subtotal: " + subtotal);
+
+        input.close(); // Close the scanner to prevent memory leaks
 
     }
     
