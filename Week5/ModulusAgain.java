@@ -52,11 +52,11 @@ public class ModulusAgain {
        // let's jump 14 months into the future
        // What month is it? March
 
-       int futureMonth = (1 + 14) % 12; // 15 % 12 = 1 R 3
+       int futureMonth = (1 + 14) % 12; // 15 % 12 = 1 R 3 = 1 year and 3 months
        System.out.println("Future Month: " + futureMonth);
 
 
-       
+       int number = 60 % 8; // 8 goes into 60, 7 times with a remainder of 4 = 4
 
 
     }   
