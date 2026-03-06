@@ -24,7 +24,7 @@ public class Q1 {
             System.out.println("The number is divisible by 5 or 6 but not both.");
         }
 
-
+        input.close();
 
     }
 }

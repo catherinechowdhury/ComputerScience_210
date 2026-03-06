@@ -31,6 +31,8 @@ public class Q4 {
             default: System.out.println("Invalid year.");
     
     }
+
+    input.close();
     
 }
 
