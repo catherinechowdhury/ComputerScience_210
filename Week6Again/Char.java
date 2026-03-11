@@ -20,20 +20,27 @@ public class Char {
         // Suppose we have a String and we want to get a specific character from it, we can use the charAt() method of the String class
 
             String word = "Hello";
+            System.out.println(word);
+            // H = 0 position
+            // e = 1 position
+            // l = 2 position
+            // l = 3 position
+            // o = 4 position
             char firstLetter = word.charAt(0); 
+        
             System.out.println(firstLetter); // Output: H
 
-            char secondLetter = word.charAt(1);
-            System.out.println(secondLetter); // Output: e
+            // char secondLetter = word.charAt(1);
+            // System.out.println(secondLetter); // Output: e
 
-            char thirdLetter = word.charAt(2);
-            System.out.println(thirdLetter); // Output: l
+            // char thirdLetter = word.charAt(2);
+            // System.out.println(thirdLetter); // Output: l
 
-            char fourthLetter = word.charAt(3);
-            System.out.println(fourthLetter); // Output: l
+            // char fourthLetter = word.charAt(3);
+            // System.out.println(fourthLetter); // Output: l
 
-            char fifthLetter = word.charAt(4);
-            System.out.println(fifthLetter); // Output: o
+            // char fifthLetter = word.charAt(4);
+            // System.out.println(fifthLetter); // Output: o
 
 
         // With the Scanner
@@ -42,9 +49,12 @@ public class Char {
 
         System.out.println("Enter a character: ");
 
-        char userChar = input.next().charAt(0);
-        
-        System.out.println("You entered: " + userChar);
+        String userString = input.next();
+        char userChar2 = userString.charAt(0); //looking at the first letter of the word
+
+        // char answer = input.next().charAt(0);
+
+        System.out.println("You entered: " + userChar2);
 
         input.close();
 

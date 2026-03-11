@@ -12,6 +12,8 @@ public class Ternary {
 
         // Example 1: Check if a number is even or odd using the ternary operator
         String result = (num % 2 == 0) ? "Even" : "Odd";
+
+        
         System.out.println(num + " is " + result);
 
         // Example 2: Find the maximum of two numbers using the ternary operator

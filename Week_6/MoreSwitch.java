@@ -5,7 +5,7 @@ public class MoreSwitch {
         
         // Switch statements can also be used with String variables
 
-        String dayOfWeek = "Monday";
+        String dayOfWeek = "Thursday";
 
         switch (dayOfWeek) {
             case "Monday": System.out.println("It's Monday!"); 
@@ -27,7 +27,7 @@ public class MoreSwitch {
 
         // Using better formatting for switch statements with arrow statements 
         switch (dayOfWeek) {
-            case "Monday" -> System.out.println("It's Monday!");
+            case "Monday" -> System.out.println("It's Monday!"); 
             case "Tuesday" -> System.out.println("It's Tuesday!");
             case "Wednesday" -> System.out.println("It's Wednesday!");
             case "Thursday" -> System.out.println("It's Thursday!");
@@ -48,6 +48,7 @@ public class MoreSwitch {
         switch (season) {
             case "Spring" -> {
                 System.out.println("It's Spring!");
+                int number = 10 + 20;
                 System.out.println("The weather is getting warmer.");
             }
             case "Summer" -> {
@@ -68,7 +69,7 @@ public class MoreSwitch {
         // Let's retry the vowel example
         String character = "a";
         switch (character) {
-                case "a", "e", "i", "o", "u" -> System.out.println(character + " is a vowel.");
+                case "a", "e", "i", "o", "u"-> System.out.println(character + " is a vowel.");
                 default -> System.out.println(character + " is a consonant.");
             
         }
