@@ -48,8 +48,22 @@ public class Char {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter a character: ");
+        // Hello
+        // H in position 0
+        // E in position 1
+        // L in position 2
+        char userString = input.next().charAt(0);
+        if( userString == 'q'){
+            break;
+        }
+      
 
-        String userString = input.next();
+
+
+
+
+
+
         char userChar2 = userString.charAt(0); //looking at the first letter of the word
 
         // char answer = input.next().charAt(0);

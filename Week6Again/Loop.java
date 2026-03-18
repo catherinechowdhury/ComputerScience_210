@@ -12,7 +12,7 @@ public class Loop {
 
         // You can use !userInput.equalsIgnoreCase("X") to compare the user input with "X" and ignore case sensitivity. This way, the user can enter "x" or "X" to exit the program.
 
-            while (userInput != 0) {
+            while (userInput != 3) { // stops if 0
                 
                 switch(userInput) {
                     case 2, 4, 6, 8 -> System.out.println(userInput + " is even.");
@@ -39,6 +39,7 @@ public class Loop {
                 }
 
                 System.out.println("You entered: " + letter);
+                //code
             }
 
             input.close();
