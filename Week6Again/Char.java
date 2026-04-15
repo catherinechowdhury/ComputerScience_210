@@ -53,9 +53,9 @@ public class Char {
         // E in position 1
         // L in position 2
         char userString = input.next().charAt(0);
-        if( userString == 'q'){
-            break;
-        }
+        // if( userString == 'q'){
+        //     break;
+        // }
       
 
 
@@ -64,11 +64,11 @@ public class Char {
 
 
 
-        char userChar2 = userString.charAt(0); //looking at the first letter of the word
+        //char userChar2 = userString.charAt(0); //looking at the first letter of the word
 
         // char answer = input.next().charAt(0);
 
-        System.out.println("You entered: " + userChar2);
+        //System.out.println("You entered: " + userChar2);
 
         input.close();
 

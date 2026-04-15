@@ -31,7 +31,7 @@ public class Stars {
         // To print the stars upside down
         System.out.println("Upside down triangle:");
         for(int i = 1; i <= n; i++) {
-             int stars = n-i+1; // calculate how many stars to print in this row, which is n - current row + 1
+            int stars = n-i+1; // calculate how many stars to print in this row, which is n - current row + 1
             for(int j = 1; j <= stars; j++){ 
                 System.out.print("*");
             }
