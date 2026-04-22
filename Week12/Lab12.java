@@ -3,8 +3,7 @@ import java.util.Scanner;
 
 public class Lab12{
 
-    public static void main(String[] args){
-
+    public static void printSubtotal(){
         Scanner input = new Scanner(System.in);
        
         System.out.print("What is your subtotal: ");
@@ -20,30 +19,46 @@ public class Lab12{
 
         input.close(); 
 
+    }
+
+    public static boolean isEven(int x){
+
+        if(x % 2 == 0){
+            return true;
+        }
+
+        return false;
+        
+    }
+    public static void main(String[] args){
+
+        //printSubtotal();
+
 
         ////////////////////////////////////////////////////
-        
-        System.out.println("Enter an even number: ");
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter a number: ");
 
         int num = input.nextInt();
 
-        if(num % 2 == 0){
-            System.out.println("Number is even");
+        boolean result = isEven(num);
+
+        if(result == true){
+            System.out.println("Number is Even");
         }
 
-        if(num % 2 != 0){
-            System.out.println("Number is odd");
+        if(result == false){
+            System.out.println("Number is Odd");
         }
+
+        
 
 
         /////////////////////////////////////////////////////
         
         
-        System.out.println("Enter a year as YYYY:");
-
-        int year = input.nextInt();
-
-        // if(year is divisible by 4 and year is not divisible by 100 OR year is divisible by 200.)
+        // if((year is divisible by 4 and year is not divisible by 100) OR (year is divisible by 400))
         
     }
 }
