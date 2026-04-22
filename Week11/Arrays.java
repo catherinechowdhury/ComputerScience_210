@@ -6,6 +6,7 @@ public class Arrays{
     public static void main(String[] args){
 
         // Declaring an array
+        
         int size = 10;
         int[] array = new int[size];
 
@@ -21,9 +22,6 @@ public class Arrays{
             System.out.print(array[i] + " ");
         }
 
-
-
-        
-
+    
     }
 }
