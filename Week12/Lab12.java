@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class Lab12{
 
-    public static void printSubtotal(){
-        Scanner input = new Scanner(System.in);
+     public static void figureOutSubtotal(){
+         Scanner input = new Scanner(System.in);
        
         System.out.print("What is your subtotal: ");
     
@@ -17,26 +17,23 @@ public class Lab12{
 
         System.out.println("Print Subtotal: " + subtotal);
 
-        input.close(); 
-
-    }
-
-    public static boolean isEven(int x){
-
+        input.close();
+     }
+    
+     public static boolean isEven(int x){
         if(x % 2 == 0){
             return true;
         }
 
-        return false;
-        
-    }
+       return false;
+     }
     public static void main(String[] args){
 
-        //printSubtotal();
-
+       //figureOutSubtotal();
+        
 
         ////////////////////////////////////////////////////
-        Scanner input = new Scanner(System.in);
+       Scanner input = new Scanner(System.in);
 
         System.out.println("Enter a number: ");
 
@@ -44,13 +41,10 @@ public class Lab12{
 
         boolean result = isEven(num);
 
-        if(result == true){
-            System.out.println("Number is Even");
-        }
+        System.out.println(num + " is even:" + result);
 
-        if(result == false){
-            System.out.println("Number is Odd");
-        }
+        
+        
 
         
 
